@@ -1,4 +1,4 @@
-<h1 align="center"> Vida Gota </h1>
+<h1 align="center"> Vida Gota 🩸 </h1>
 
 
 <p align="center">Project made for practice web technologies</p>
@@ -16,10 +16,15 @@
 
 ## 🚀 Technologies
 
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,git,github"> 
+</div>
 
-- HTML & CSS
-- React
+---
+
+- HTML & CSS 
 - JavaScript
+- React
 - Git & GitHub
 
 ## 💻 Project
