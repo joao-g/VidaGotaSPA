@@ -5,7 +5,8 @@
 
 <p align="center">
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#-notes">Notes</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
@@ -32,6 +33,12 @@
 VidaGota is a a page to show places to donate blood and simulate a reservation:
 
 - [Access the final project online](https://joao-g.github.io/VidaGotaSPA)
+
+
+## 📝 Notes
+If you want to run it locally you need to have React installed on you PC and run
+-  npm install react-router-dom
+-  npm install --save-dev gh-pages
 
 ---
 
