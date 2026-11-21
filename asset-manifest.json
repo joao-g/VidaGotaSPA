@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/VidaGotaSPA/static/css/main.e303ad45.css",
+    "main.js": "/VidaGotaSPA/static/js/main.def4f682.js",
+    "static/media/posto3.jpg": "/VidaGotaSPA/static/media/posto3.955325f9b8b155248681.jpg",
+    "static/media/posto1.jpg": "/VidaGotaSPA/static/media/posto1.fae74dd9ca899aecc609.jpg",
+    "static/media/posto2.jpg": "/VidaGotaSPA/static/media/posto2.edf8537b7e5371135633.jpg",
+    "index.html": "/VidaGotaSPA/index.html",
+    "main.e303ad45.css.map": "/VidaGotaSPA/static/css/main.e303ad45.css.map",
+    "main.def4f682.js.map": "/VidaGotaSPA/static/js/main.def4f682.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e303ad45.css",
+    "static/js/main.def4f682.js"
+  ]
+}
