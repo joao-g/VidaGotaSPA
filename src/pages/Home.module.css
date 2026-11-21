@@ -1,0 +1,69 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+.hero {
+  background-color: #ffffff;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2.5rem;
+}
+
+.titulo {
+  font-size: 2.3rem;
+  color: #d90429;
+  margin-bottom: 1rem;
+}
+
+.subtitulo {
+  font-size: 1.1rem;
+  color: #4a4e69;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+}
+
+.acoes {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btnPrimario {
+  background-color: #d90429;
+  color: #ffffff;
+  padding: 0.8rem 1.6rem;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.btnSecundario {
+  background-color: #edf2f4;
+  color: #2b2d42;
+  padding: 0.8rem 1.6rem;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.indicadores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.cardInfo {
+  background-color: #ffffff;
+  padding: 1.8rem;
+  border-radius: 10px;
+  border-left: 5px solid #d90429;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.cardInfo h2 {
+  color: #d90429;
+  margin-bottom: 0.5rem;
+}
