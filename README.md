@@ -1,7 +1,7 @@
 <h1 align="center"> Vida Gota </h1>
 
 
-<p align="center">Project made for training web technologies</p>
+<p align="center">Project made for practice web technologies</p>
 
 <p align="center">
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
