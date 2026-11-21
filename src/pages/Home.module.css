@@ -1,69 +1,90 @@
+/* src/pages/Home.module.css */
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 2.5rem 1.5rem;
+  padding: 3rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza todos os elementos filhos na tela */
 }
 
 .hero {
   background-color: #ffffff;
-  padding: 3rem 2rem;
-  border-radius: 12px;
-  text-align: center;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--border-color);
+  padding: 3.5rem 2.5rem;
+  border-radius: var(--radius);
+  text-align: center; /* Centraliza o texto do banner principal */
   margin-bottom: 2.5rem;
+  width: 100%;
+  max-width: 900px; /* Mantém uma largura ideal para leitura */
 }
 
 .titulo {
-  font-size: 2.3rem;
-  color: #d90429;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--text-main);
+  letter-spacing: -0.5px;
   margin-bottom: 1rem;
 }
 
 .subtitulo {
-  font-size: 1.1rem;
-  color: #4a4e69;
-  max-width: 700px;
-  margin: 0 auto 2rem;
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  max-width: 650px;
+  margin: 0 auto 2rem; /* Centraliza o parágrafo */
 }
 
 .acoes {
   display: flex;
-  justify-content: center;
+  justify-content: center; /* Centraliza os botões */
   gap: 1rem;
   flex-wrap: wrap;
 }
 
 .btnPrimario {
-  background-color: #d90429;
+  background-color: var(--primary);
   color: #ffffff;
-  padding: 0.8rem 1.6rem;
-  border-radius: 6px;
-  font-weight: bold;
+  padding: 0.7rem 1.25rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 0.95rem;
+  display: inline-block;
 }
 
 .btnSecundario {
-  background-color: #edf2f4;
-  color: #2b2d42;
-  padding: 0.8rem 1.6rem;
-  border-radius: 6px;
-  font-weight: bold;
+  background-color: transparent;
+  color: var(--text-main);
+  border: 1px solid var(--border-color);
+  padding: 0.7rem 1.25rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 0.95rem;
+  display: inline-block;
 }
 
 .indicadores {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  width: 100%;
 }
 
 .cardInfo {
   background-color: #ffffff;
-  padding: 1.8rem;
-  border-radius: 10px;
-  border-left: 5px solid #d90429;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--border-color);
+  padding: 1.5rem;
+  border-radius: var(--radius);
 }
 
 .cardInfo h2 {
-  color: #d90429;
-  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 0.3rem;
+}
+
+.cardInfo p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
 }

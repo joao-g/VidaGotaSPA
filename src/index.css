@@ -4,11 +4,24 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary: #c92a2a;       
+  --primary-dark: #a61e1e;
+  --primary-light: #fff5f5;
+  --text-main: #212529;     
+  --text-muted: #6c757d;    
+  --bg-app: #f4f6f8;        
+  --bg-card: #ffffff;
+  --border-color: #dee2e6;
+  --radius: 8px;           
+}
+
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f8f9fa;
-  color: #2b2d42;
-  line-height: 1.6;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-app);
+  color: var(--text-main);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -19,4 +32,5 @@ a {
 button {
   cursor: pointer;
   font-family: inherit;
+  border: none;
 }

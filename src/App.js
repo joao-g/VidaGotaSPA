@@ -8,7 +8,7 @@ import Agendamento from './pages/Agendamento';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="VidaGotaSPA">
       <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <Navbar />
         <main style={{ flex: 1 }}>
