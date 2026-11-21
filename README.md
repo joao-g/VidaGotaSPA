@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img alt="License" src="https://github.com/joao-g/VidaGotaSPA/blob/main/src/assets/2026-11-21-134555_hyprshot.png">
+  <img alt="License" src="https://github.com/joao-g/VidaGotaSPA/blob/main/src/assets/2026-11-21-143326_hyprshot.png"/>
 </p>
 
 <br>
