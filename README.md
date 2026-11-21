@@ -26,7 +26,7 @@
 
 Devlinks is a a page to show your main links:
 
-- [Access the final project online](https://joao-g.github.io/devlinks/)
+- [Access the final project online](https://joao-g.github.io/VidaGotaSPA)
 
 ---
 
